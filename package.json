@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "autobracer.helloWorld",
-        "title": "Hello World"
+        "command": "autobracer.mycommand",
+        "title": "My custom command"
       }
     ]
   },
