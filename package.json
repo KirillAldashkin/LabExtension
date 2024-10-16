@@ -1,8 +1,15 @@
 {
   "name": "autobracer",
   "displayName": "AutoBracer",
-  "description": "",
+  "author": {
+    "name": "Kirill Aldashkin",
+    "url": "https://github.com/KirillAldashkin",
+    "email": "464953@edu.itmo.ru"
+  },
+  "publisher": "kidev",
+  "description": "Extension for clening up expressions",
   "version": "0.0.1",
+  "repository": "https://github.com/KirillAldashkin/LabExtension",
   "engines": {
     "vscode": "^1.94.0"
   },

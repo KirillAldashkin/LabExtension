@@ -8,3 +8,5 @@ Select an expression and press `Ctrl`+`Shift`+`J` to remove all braces that does
 
 ### Currently supported languages:
 * `C#`
+
+###### Алдашкин Кирилл Денисович, ИТМО ИС у28, М3102
