@@ -1,5 +1,11 @@
 import * as lang from "../language";
 
+/**
+ * Definition of the C# language syntax.
+ * @see {@link lang.LanguageDescription}
+ * @see https://learn.microsoft.com/dotnet/csharp/language-reference/operators, 
+ * 'Operator precedence' and 'Operator associativity'
+ */
 export const csharp = new lang.LanguageDescription([
 // skipped compound operators like lambda definition, stackalloc, ternary, etc.
   lang.operator("=", 0, lang.Usage.Binary, lang.Associativity.Right, true),

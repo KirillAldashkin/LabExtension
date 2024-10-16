@@ -3,6 +3,7 @@ import { edit } from "./bracer";
 
 export function activate(context: vscode.ExtensionContext) {
 	const disposable = vscode.commands.registerCommand('autobracer.unbrace', () => {
+		// check for opened file
 		let editor = vscode.window.activeTextEditor;
 		if(editor === undefined) {
 			vscode.window.showErrorMessage("No file opened");
@@ -12,6 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
 			vscode.window.showErrorMessage("Select an expression first");
 			return;
 		}
+		// process and update
 		let result = edit(
 			editor.document.languageId,
 			editor.document.getText(editor.selection)
