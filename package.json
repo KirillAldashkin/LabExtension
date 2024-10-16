@@ -14,8 +14,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "autobracer.mycommand",
-        "title": "My custom command"
+        "command": "autobracer.unbrace",
+        "title": "Remove unnecessary braces from the selected expression"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "autobracer.unbrace",
+        "key": "ctrl+shift+j",
+        "mac": "shift+cmd+j"
       }
     ]
   },
